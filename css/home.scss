@@ -13,12 +13,13 @@ $tertiary-color: #D3D3D3;
 body {
     font-family: 'Lato';
     background-color: $tertiary-color;
+    font-weight: 400;
 }
 
 .mobile-nav {
+    display: block;
     margin-left: 15px;
     font-size: 32px;
-    font-weight: 400;
 }
 .desktop-nav {
     display: none;
@@ -39,6 +40,57 @@ nav {
    a {
     color: $secondary-color;
    }
+}
+
+.heading-primary {
+    color: $primary-color;
+    margin-top: 90px;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.heading-primary-main {
+    display: block;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.date {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+// Main Program Styling
+
+.main-program {
+    background-color: $secondary-color;
+}
+
+.main-heading {
+    color: $tertiary-color;
+    text-align: center;
+}
+
+.sub-div {
+    display: flex;
+    gap: 45px;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.lecture {
+    color: $primary-color;
+}
+
+.lecture-t {
+    color: $tertiary-color;
 }
 
 
