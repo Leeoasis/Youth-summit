@@ -7,8 +7,7 @@
 }
 
 body {
-  font-family: "Lato";
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
   font-weight: 400;
 }
 
@@ -26,13 +25,15 @@ nav ul {
   float: right;
   margin-right: 20px;
 }
+
 nav li {
   display: inline-block;
   margin: 0 5px;
-  color: #272A31;
+  color: #272a31;
 }
+
 nav a {
-  color: #272A31;
+  color: #272a31;
 }
 
 .home-section {
@@ -40,7 +41,7 @@ nav a {
 }
 
 .heading-primary {
-  color: #EC5242;
+  color: #ec5242;
   margin: 90px 0 50px 0;
 }
 
@@ -65,12 +66,12 @@ nav a {
 }
 
 .main-program {
-  background-color: #272A31;
+  background-color: #272a31;
   margin-top: 100px;
 }
 
 .main-heading {
-  color: #D3D3D3;
+  color: #d3d3d3;
   text-align: center;
   padding-top: 30px;
 }
@@ -92,16 +93,16 @@ nav a {
 }
 
 .lecture {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .lecture-t {
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 
 .join {
-  background-color: #EC5242;
-  color: #D3D3D3;
+  background-color: #ec5242;
+  color: #d3d3d3;
   padding: 20px;
   width: 50%;
   margin: 50px 25%;
@@ -129,7 +130,7 @@ nav a {
 }
 
 .feature-text {
-  color: #EC5242;
+  color: #ec5242;
   margin: 5px 0 25px 0;
   font-size: 15px;
 }
@@ -150,15 +151,15 @@ nav a {
 }
 
 .fa-angle-down {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .partners {
-  background-color: #272A31;
+  background-color: #272a31;
 }
 
 .partner-heading {
-  color: #D3D3D3;
+  color: #d3d3d3;
   text-align: center;
   padding-top: 30px;
 }
@@ -168,7 +169,7 @@ nav a {
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-content: center;
-  color: #D3D3D3;
+  color: #d3d3d3;
   margin-bottom: 40px;
 }
 
@@ -181,7 +182,8 @@ nav a {
   .mobile-nav {
     display: none;
   }
+
   .desktop-nav {
     display: block;
   }
-}/*# sourceMappingURL=home.css.map */
+}

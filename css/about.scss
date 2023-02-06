@@ -1,83 +1,84 @@
-$primary-color: #EC5242;
-$secondary-color: #272A31;
-$tertiary-color: #D3D3D3;
+$primary-color: #ec5242;
+$secondary-color: #272a31;
+$tertiary-color: #d3d3d3;
 
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style-type: none;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
 }
+
 body {
-    background-color: $tertiary-color;
-    font-weight: 400;
+  background-color: $tertiary-color;
+  font-weight: 400;
 }
 
 .mobile-nav {
-    display: block;
-    margin-left: 25px;
-    font-size: 32px;
+  display: block;
+  margin-left: 25px;
+  font-size: 32px;
 }
+
 .desktop-nav {
-    display: none;
+  display: none;
 }
 
 nav {
-   ul {
+  ul {
     float: right;
     margin-right: 20px;
-   }
+  }
 
-   li {
+  li {
     display: inline-block;
     margin: 0 5px;
     color: $secondary-color;
-   }
+  }
 
-   a {
+  a {
     color: $secondary-color;
-   }
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .mobile-nav {
-        display: none;
-    }
+  .mobile-nav {
+    display: none;
+  }
 
-    .desktop-nav {
-        display: block;
-    }
+  .desktop-nav {
+    display: block;
+  }
 }
 
 .home-section {
-    margin: 0 25px;
+  margin: 0 25px;
 }
 
 .heading-primary {
-    color: $primary-color;
-    margin: 90px 0 50px 0;
+  color: $primary-color;
+  margin: 90px 0 50px 0;
 }
 
 .heading-primary-sub {
-    display: block;
-    font-size: 40px;
-    font-weight: 300;
-    text-align: center;
+  display: block;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
 }
 
 .heading-primary-main {
-    display: block;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 5px;
-    text-align: center;
-
+  display: block;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-align: center;
 }
 
 .contact-us {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 // BODY
@@ -85,26 +86,26 @@ nav {
 // Parnters section
 
 .partners {
-    background-color: $secondary-color;
+  background-color: $secondary-color;
 }
 
 .partner-heading {
-    color: $tertiary-color;
-    text-align: center;
-    padding-top: 30px;
+  color: $tertiary-color;
+  text-align: center;
+  padding-top: 30px;
 }
- .partner-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-content: center;
-    color: $tertiary-color;
-    margin-bottom: 40px;
- }
 
+.partner-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-content: center;
+  color: $tertiary-color;
+  margin-bottom: 40px;
+}
 
- // FOOTER
- .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
- }
+// FOOTER
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
