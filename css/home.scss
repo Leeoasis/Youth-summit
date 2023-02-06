@@ -1,205 +1,205 @@
-$primary-color: #EC5242;
-$secondary-color: #272A31;
-$tertiary-color: #D3D3D3;
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style-type: none;
-    box-sizing: border-box;
+$primary-color: #ec5242;
+$secondary-color: #272a31;
+$tertiary-color: #d3d3d3;
+$font-family-base: "Lato";
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Lato';
-    background-color: $tertiary-color;
-    font-weight: 400;
+  background-color: $tertiary-color;
+  font-weight: 400;
 }
 
 .mobile-nav {
-    display: block;
-    margin-left: 25px;
-    font-size: 32px;
+  display: block;
+  margin-left: 25px;
+  font-size: 32px;
 }
+
 .desktop-nav {
-    display: none;
+  display: none;
 }
 
 nav {
-   ul {
+  ul {
     float: right;
     margin-right: 20px;
-   }
+  }
 
-   li {
+  li {
     display: inline-block;
     margin: 0 5px;
     color: $secondary-color;
-   }
+  }
 
-   a {
+  a {
     color: $secondary-color;
-   }
+  }
 }
 
 .home-section {
-    margin: 0 25px;
+  margin: 0 25px;
 }
 
 .heading-primary {
-    color: $primary-color;
-    margin: 90px 0 50px 0;
+  color: $primary-color;
+  margin: 90px 0 50px 0;
 }
 
 .heading-primary-sub {
-    display: block;
-    font-size: 40px;
-    font-weight: 300;
+  display: block;
+  font-size: 40px;
+  font-weight: 300;
 }
 
 .heading-primary-main {
-    display: block;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 5px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 5px;
 }
 
 .date {
-    font-size: 32px;
-    font-weight: 400;
-    margin: 30px auto 15px auto;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 30px auto 15px auto;
 }
 
 // Main Program Styling
 
 .main-program {
-    background-color: $secondary-color;
-    margin-top: 100px;
+  background-color: $secondary-color;
+  margin-top: 100px;
 }
 
 .main-heading {
-    color: $tertiary-color;
-    text-align: center;
-    padding-top: 30px;
+  color: $tertiary-color;
+  text-align: center;
+  padding-top: 30px;
 }
 
-.main-div{
-    margin-top: 25px;
+.main-div {
+  margin-top: 25px;
 }
 
 .sub-div {
-    display: flex;
-    gap: 45px;
-   background-color: #e1e4eb31;
-   margin: auto 25px 10px 25px;
-   padding: 25px;
-
+  display: flex;
+  gap: 45px;
+  background-color: #e1e4eb31;
+  margin: auto 25px 10px 25px;
+  padding: 25px;
 }
 
 .icon {
-    display: inline-block;
+  display: inline-block;
 }
 
 .lecture {
-    color: $primary-color;
+  color: $primary-color;
 }
 
 .lecture-t {
-    color: $tertiary-color;
+  color: $tertiary-color;
 }
 
 .join {
-    background-color: $primary-color;
-    color: $tertiary-color;
-    padding: 20px;
-    width: 50%;
-    margin:50px 25%;
+  background-color: $primary-color;
+  color: $tertiary-color;
+  padding: 20px;
+  width: 50%;
+  margin: 50px 25%;
 }
 
 // FEATURES SECTION
 
 .feature-heading {
-    text-align: center;
-    padding-top: 50px;
+  text-align: center;
+  padding-top: 50px;
 }
 
-.sub-features{
-    display: flex;
-    gap: 25px;
-    margin: 60px 40px;
+.sub-features {
+  display: flex;
+  gap: 25px;
+  margin: 60px 40px;
 }
 
 .feature-img {
-    height: 150px;
-    width: 150px;
+  height: 150px;
+  width: 150px;
 }
 
-.feature-name{
-    font-weight: 400;
-    font-size: 25px;
+.feature-name {
+  font-weight: 400;
+  font-size: 25px;
 }
 
-.feature-text{
-    color: $primary-color;
-    margin: 5px 0 25px 0;
-    font-size: 15px;
+.feature-text {
+  color: $primary-color;
+  margin: 5px 0 25px 0;
+  font-size: 15px;
 }
 
 .feature-text-2 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .feature-button {
-    padding: 15px;
-    width: 80%;
-    margin: 0 40px 60px 40px;
-    font-size: 16px;
+  padding: 15px;
+  width: 80%;
+  margin: 0 40px 60px 40px;
+  font-size: 16px;
 }
 
 .more {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
-.fa-angle-down{
-    color: $primary-color;
+.fa-angle-down {
+  color: $primary-color;
 }
 
 // Parnters section
 
 .partners {
-    background-color: $secondary-color;
+  background-color: $secondary-color;
 }
 
 .partner-heading {
-    color: $tertiary-color;
-    text-align: center;
-    padding-top: 30px;
+  color: $tertiary-color;
+  text-align: center;
+  padding-top: 30px;
 }
- .partner-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-content: center;
-    color: $tertiary-color;
-    margin-bottom: 40px;
- }
 
+.partner-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-content: center;
+  color: $tertiary-color;
+  margin-bottom: 40px;
+}
 
- // FOOTER
- .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
- }
-
-
+// FOOTER
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 @media screen and (min-width: 768px) {
-    .mobile-nav {
-        display: none;
-    }
+  .mobile-nav {
+    display: none;
+  }
 
-    .desktop-nav {
-        display: block;
-    }
+  .desktop-nav {
+    display: block;
+  }
 }
