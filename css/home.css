@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato";
+  background-color: #D3D3D3;
+}
+
+.mobile-nav {
+  margin-left: 15px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav li {
+  display: inline-block;
+  margin: 0 5px;
+  color: #272A31;
+}
+nav a {
+  color: #272A31;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+  .desktop-nav {
+    display: block;
+  }
+}/*# sourceMappingURL=home.css.map */
