@@ -41,17 +41,6 @@ nav {
     color: $secondary-color;
   }
 }
-
-@media screen and (min-width: 768px) {
-  .mobile-nav {
-    display: none;
-  }
-
-  .desktop-nav {
-    display: block;
-  }
-}
-
 .home-section {
   margin: 0 25px;
 }
@@ -79,6 +68,10 @@ nav {
 
 .contact-us {
   padding-top: 50px;
+}
+
+.creative-summons {
+    padding: 90px auto 40px auto;
 }
 
 // BODY
@@ -109,3 +102,15 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+
+@media screen and (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+}
+

@@ -25,25 +25,13 @@ nav ul {
   float: right;
   margin-right: 20px;
 }
-
 nav li {
   display: inline-block;
   margin: 0 5px;
   color: #272a31;
 }
-
 nav a {
   color: #272a31;
-}
-
-@media screen and (min-width: 768px) {
-  .mobile-nav {
-    display: none;
-  }
-
-  .desktop-nav {
-    display: block;
-  }
 }
 
 .home-section {
@@ -75,6 +63,10 @@ nav a {
   padding-top: 50px;
 }
 
+.creative-summons {
+  padding: 90px auto 40px auto;
+}
+
 .partners {
   background-color: #272a31;
 }
@@ -98,3 +90,12 @@ nav a {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+@media screen and (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+  .desktop-nav {
+    display: block;
+  }
+}/*# sourceMappingURL=about.css.map */
