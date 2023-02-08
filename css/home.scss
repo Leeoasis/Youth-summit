@@ -47,21 +47,20 @@ body {
   transition: 0.3s ease;
 }
 
+
 .mobile-nav {
   display: block;
   margin-left: 25px;
   font-size: 32px;
 }
 
-.desktop-nav {
+.desktop-nav{
   display: none;
-  margin-top: 25px;
 }
 
 nav {
   ul {
     float: right;
-    margin-right: 8%;
   }
 
   li {
@@ -87,6 +86,7 @@ nav {
   justify-content: space-evenly;
   flex-direction: column;
   width: 70%;
+  margin-left: 50px;
 }
 
 .heading-primary {
@@ -95,16 +95,16 @@ nav {
 }
 
 .heading-primary-sub {
+  background-image: url(../images/concert-g60053d367_640.jpg);
+  -webkit-text-fill-color: rgb(0 0 0 / 0%);
+  color: transparent;
+  -webkit-background-clip: text;
   font-family: 'Lato', sans-serif;
-  font-size: 30px;
-  background-size: cover;
-  margin: 20px 0;
-  max-width: 900px;
-  align-self: center;
+  font-size: 35px;
 }
 
 .heading-primary-main {
-  background-image: url(../images/concert-g60053d367_640.jpg);
+  background-image: url(../images/heading.jpg);
   font-family: 'Lato', sans-serif;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -122,6 +122,7 @@ nav {
 
 .home-description {
   border: 3px solid #fff;
+  background-color: $tertiary-color;
   box-shadow:
     0 5px 5px rgba(222, 222, 222, 0.82),
     0 5px 5px rgba(222, 222, 222, 0.82);
@@ -129,13 +130,15 @@ nav {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 15px;
+  width: 90%;
 }
 
 
 .date {
   font-size: 32px;
   font-weight: 400;
-  margin: 30px auto 15px auto;
+  margin: 30px 0 15px 0;
+  width: 50%;
 }
 
 .last-main-p{
@@ -361,10 +364,36 @@ em {
 }
 
 // FOOTER
-.footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.footer-cont {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
 }
+
+.footer-box {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+
+.footer-box img {
+  width: 100px;
+  height: 100px;
+}
+
+.footer-box p {
+  padding-top: 25px;
+  margin-left: -20px;
+  font-weight: 700;
+}
+
+.footer-text p {
+  margin-top: 30px;
+}
+
+//DESKTOP VERSION
 
 @media screen and (min-width: 768px) {
   .header {
@@ -385,7 +414,47 @@ em {
 
   .desktop-nav {
     display: block;
+    margin: 20px 32px;
   }
+
+  .logo-wrapper {
+    display: flex;
+    gap: 5px;
+  }
+
+  .home-logo {
+    height: 50px;
+  }
+
+  .desktop-nav a:hover {
+    color: #ec523c;
+  }
+
+  .nav-list {
+    margin-top: -40px;
+    margin-right: 90px;
+  }
+
+  .nav-list li:last-child {
+    border: 3px solid #ec5242;
+    padding: 10px;
+  }
+  
+
+  .hide {
+    display: block;
+  }
+
+  .home-container {
+  margin-left: 400px;
+  width: 90%;
+  }
+
+  .home-description {
+  width: 40%;
+  }
+
+  // MAIN PROGRAM
 
 .event-box {
   display: flex;
@@ -447,6 +516,8 @@ em {
 .join {
   display: none;
 }
+
+// FEATURE SPEAKERS
 .line3 {
   width: 46px;
   height: 2px;
@@ -493,5 +564,30 @@ em {
 .btn {
   display: none;
 }
+
+// FOOTER
+
+
+.footer-cont {
+  width: 100%;
+}
+
+.footer-box {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-box p {
+  width: 30%;
+  padding-top: 32px;
+}
+
+.footer-text {
+  width: 35%;
+  margin-left: -50px;
+  padding-top: 10px;
+}
+
 
 }
