@@ -241,7 +241,6 @@ body {
   }
 }
 
-
 .home-section {
   background-image: linear-gradient(to right bottom, rgba(198, 202, 197, 0.8), rgba(86, 88, 88, 0.8));
   background-repeat: no-repeat;
@@ -250,7 +249,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 
 .heading-primary {
   color: $primary-color;
@@ -325,7 +323,7 @@ body {
 }
 
 .image-overlay {
- background-color: rgba(236, 83, 60, 0.788);
+  background-color: rgba(236, 83, 60, 0.788);
 }
 
 .logo-desc img {
@@ -333,7 +331,6 @@ body {
   height: 200px;
   margin-left: 60px;
 }
-
 
 // Past Summits
 
@@ -371,7 +368,6 @@ body {
   font-weight: bold;
   color: #fff;
 }
-
 
 // Parnters section
 
@@ -483,7 +479,7 @@ body {
   }
 
   .nav-logo {
-  display: flex;
+    display: flex;
   }
 
   .hide {
@@ -518,89 +514,71 @@ body {
 
   .footer-cont {
     padding: 30px 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 25px;
   }
-  
+
   .footer-box {
     display: flex;
     flex-direction: row;
     gap: 18px;
+    width: 35%;
   }
-  
+
   .footer-box img {
     width: 100px;
     height: 100px;
   }
-  
+
   .footer-box p {
-    padding-top: 25px;
     margin-left: -20px;
     font-weight: 700;
+    width: 30%;
+    padding-top: 32px;
   }
-  
+
   .footer-text p {
     margin-top: 30px;
   }
 
-// LOGO
+  // LOGO
 
-.sec-title {
-  width: 100%;
-  text-align: center;
-  margin-left: 0;
+  .sec-title {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .text-center {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .logo-desc {
+    width: 50%;
+    justify-content: center;
+    padding: 10px 5%;
+    margin-left: 25%;
+    gap: 60px;
+  }
+
+  .history {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  //FOOTER
+
+  .footer-text {
+    width: 35%;
+    margin-left: -50px;
+    padding-top: 10px;
+  }
 }
-
-.text-center {
-  width: 100%;
-  text-align: center;
-  margin-left: 0;
-}
-
-.logo-desc {
-  width: 50%;
-  justify-content: center;
-  padding: 10px 5%;
-  margin-left: 25%;
-  gap: 60px;
-}
-
-.history {
-  display: flex;
-  flex-direction: row;
-  margin-top: 40px;
-  width: 100%;
-  justify-content: center;
-}
-
-//FOOTER
-
-.footer-cont {
-  width: 100%;
-}
-
-.footer-box {
-  width: 35%;
-  display: flex;
-  flex-direction: row;
-}
-
-.footer-box p {
-  width: 30%;
-  padding-top: 32px;
-}
-
-.footer-text {
-  width: 35%;
-  margin-left: -50px;
-  padding-top: 10px;
-}
-
-}
-
-
-
-
-
