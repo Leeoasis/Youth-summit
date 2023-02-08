@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://leeoasis.github.io/Javascript-Capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,6 +85,7 @@ To run tests, run the following command: npx hint . and npx stylelint "\*_/_.{cs
 ### Deployment
 
 You can deploy this project using Github pages.
+https://leeoasis.github.io/Javascript-Capstone/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
