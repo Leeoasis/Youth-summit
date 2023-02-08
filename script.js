@@ -1,33 +1,3 @@
-//MODAL
-const modalOpen = document.querySelector(".hamburger");
-const linksModal = document.querySelector(".nav-list");
-const modalClose = document.querySelector("#modal-close");
-
-// Function that opens the modal
-function modalOpener() {
-  linksModal.classList.remove('hide');
-  linksModal.classList.add('overlay');
-  modalOpen.classList.add('hide');
-  modalClose.classList.remove("hide");
-}
-
-// Function that closes the modal
-function modalCloser() {
-  linksModal.classList.add("hide");
-  modalOpen.classList.remove('hide');
-  modalClose.classList.add("hide");
-}
-
-
-
-modalOpen.addEventListener("click", modalOpener);
-
-modalClose.addEventListener("click", modalCloser)
-
-
-
-
-
 // featured speakers dynamic javascript
 
 const featSpeaker = [
